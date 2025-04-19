@@ -1,23 +1,18 @@
 
----
-
-
-```markdown
-# 🧠 Simple Quiz Website
+ 🧠 Simple Quiz Website
 
 A beginner-friendly quiz website built using **HTML**, **CSS**, and **Python (Flask)**. It allows users to answer multiple-choice questions and get their score instantly after submitting the quiz.
 
----
 
-## 🚀 Features
+
+ 🚀 Features
 - Multiple choice questions
 - Auto-calculated score
 - Responsive and clean UI
 - Built with Flask (Python web framework)
 
----
 
-## 📁 Project Structure
+ 📁 Project Structure
 
 ```
 quiz-app/
@@ -36,9 +31,8 @@ quiz-app/
 
 ```
 
----
 
-## 🛠️ Requirements
+ 🛠️ Requirements
 
 Make sure you have Python installed.
 
@@ -48,7 +42,7 @@ Install Flask:
 pip install flask
 ```
 
----
+
 
 ## ▶️ How to Run
 
@@ -64,40 +58,40 @@ python app.py
 ```
 
 3. Open your browser and go to:
-```
+```bash
 http://127.0.0.1:5000
 ```
 
----
 
-## 📸 Screenshots
+ 📸 Screenshots
 
-_Add a screenshot of your quiz page and result page here (optional)_
+ 🧪 Quiz Page
+![Quiz Page](screenshots/quiz-page.png)
 
----
+ ✅ Result Page
+![Result Page](screenshots/result-page.png)
 
-## 🧩 Future Improvements
+
+
+ 🧩 Future Improvements
 - Add a timer for the quiz
 - Save user scores
 - Add more question types (checkbox, dropdown, etc.)
 - User login and history
 
----
 
-## 📄 License
+
+ 📄 License
 
 This project is open-source and free to use under the [MIT License](LICENSE).
 
----
 
-## 🙌 Acknowledgements
+ 🙌 Acknowledgements
 
 Built with ❤️ using Python, Flask, HTML, and CSS.
-```
 
----
 
-### ✅ Tips:
+ ✅ Tips:
 - Replace `your-username` with your GitHub username in the clone link.
 - Add screenshots for a nice visual if you're uploading it to GitHub.
 - If you want to make it public, create a new repo and push it:
