@@ -1,10 +1,10 @@
 
-**🧠 Simple Quiz Website**
+🧠 Simple Quiz Website
 
 A beginner-friendly quiz website built using **HTML**, **CSS**, and **Python (Flask)**. It allows users to answer multiple-choice questions and get their score instantly after submitting the quiz.
 
 
-** 🚀 Features**
+ 🚀 Features
 - Multiple choice questions
 - Auto-calculated score
 - Responsive and clean UI
@@ -27,39 +27,39 @@ quiz-app/
 
 
 
-** 🛠️ Requirements**
+ 🛠️ Requirements
 
 Make sure you have Python installed.
 
 Install Flask:
 
 
-**pip install flask**
+  **pip install flask**
 
 
 
 
-** ▶️ How to Run**
+ ▶️ How to Run
 
 1. Clone this repository:
 
-**git clone https://github.com/your-username/quiz-app.git
-cd quiz-app**
+  **git clone https://github.com/your-username/quiz-app.git
+  cd quiz-app**
 
 
 2. Run the Flask app:
 
-**python app.py**
+  **python app.py**
 
 
 3. Open your browser and go to:
 
-**http://127.0.0.1:5000**
+  **http://127.0.0.1:5000**
 
 
 
 
-** 📸 Screenshots**
+ 📸 Screenshots
 
 **🧾 Quiz Page**
 ![Quiz Page](screenshots/quiz-page.png)
@@ -69,7 +69,7 @@ cd quiz-app**
 
 
 
-**🧩 Future Improvements**
+🧩 Future Improvements
 - Add a timer for the quiz
 - Save user scores
 - Add more question types (checkbox, dropdown, etc.)
@@ -93,9 +93,9 @@ Built with ❤️ using Python, Flask, HTML, and CSS.
 - If you want to make it public, create a new repo and push it:
 
 
-git init
-git add .
-git commit -m "Initial commit"
+git init \n
+git add . \n
+git commit -m "Initial commit" \n
 git branch -M main
 git remote add origin https://github.com/your-username/quiz-app.git
 git push -u origin main
