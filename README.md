@@ -1,9 +1,3 @@
-Perfect! Here's a clean and simple **`README.md`** file for your quiz website project built with **HTML, CSS, and Python (Flask)**.
-
-You can place this file in the root of your project folder (`quiz-app/`), and it will be picked up by GitHub when you push it.
-
----
-
 ### 📄 `README.md`
 ```markdown
 # 🧠 Simple Quiz Website
