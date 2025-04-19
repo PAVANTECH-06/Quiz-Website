@@ -1,7 +1,7 @@
 
 ---
 
-### 📄 `README.md`
+
 ```markdown
 # 🧠 Simple Quiz Website
 
@@ -21,13 +21,19 @@ A beginner-friendly quiz website built using **HTML**, **CSS**, and **Python (Fl
 
 ```
 quiz-app/
-├── app.py                  # Flask backend
-├── templates/
-│   ├── index.html          # Main quiz page
-│   └── result.html         # Result display page
-├── static/
-│   └── style.css           # CSS styling
-└── README.md               # Project documentation
+│
+├── app.py                       # Flask backend
+├── requirements.txt             # Python dependencies
+│
+├── templates/                   # HTML templates
+│   ├── index.html               # Quiz page
+│   └── result.html              # Result page
+│
+├── static/                      # Static assets (CSS, JS, images)
+│   └── style.css                # CSS styles
+│
+└── README.md                    # Project documentation
+
 ```
 
 ---
