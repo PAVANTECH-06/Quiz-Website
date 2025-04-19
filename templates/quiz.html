@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="top-right">
+        <form method="POST" action="{{ url_for('logout') }}">
+            <button type="submit">Logout</button>
+        </form>
+    </div>
+
+    <div class="quiz-container">
+        <h1>Question {{ question_index + 1 }} of {{ total_questions }}</h1>
+        <h2>Q{{ question_index + 1 }}: {{ question['question'] }}</h2>
+
+        <form method="POST" action="{{ url_for('next_question') }}">
+            {% for option in question['options'] %}
+                <label>
+                    <input type="radio" name="answer" value="{{ option }}" required>
+                    {{ option }}
+                </label><br>
+            {% endfor %}
+
+            <br>
+            {% if question_index + 1 == total_questions %}
+                <button type="submit">Submit</button>
+            {% else %}
+                <button type="submit">Next</button>
+            {% endif %}
+        </form>
+    </div>
+</body>
+</html>

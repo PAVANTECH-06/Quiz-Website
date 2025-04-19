@@ -1,0 +1,156 @@
+/* General Page Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Top Right Logout */
+.top-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Login Box */
+.login-box {
+    background-color: #f1f5ff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.error {
+    color: red;
+}
+
+/* Quiz Container */
+.quiz-container {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+    width: 500px;
+}
+
+.quiz-container h1 {
+    margin-bottom: 10px;
+}
+
+.quiz-container h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.quiz-container label {
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.quiz-container input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Result Page */
+.result-container {
+    text-align: center;
+    background-color: #e8f0fe;
+    padding: 40px;
+    border-radius: 12px;
+    width: 400px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.result-container h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.result-container p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.review-full-page {
+    width: 80%;
+    margin: 60px auto;
+    padding-bottom: 60px;
+}
+
+.center-heading {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.center-subheading {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+.question-review {
+    text-align: left;
+}
+
+.question-review .correct {
+    color: green;
+    font-weight: bold;
+}
+
+.question-review .incorrect {
+    color: red;
+    font-weight: bold;
+}
+
+.question-review h3 {
+    margin: 10px 0 5px;
+}
+
+.question-review p {
+    margin: 0 0 5px;
+}
+
+.answer-box {
+    padding: 15px;
+    border-left: 5px solid #ccc;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}

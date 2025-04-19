@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "Highly Texted Multimedia Language",
+        "Hyperlink and Text Management Language",
+        "Home Tool Markup Language"
+      ],
+      "answer": "Hyper Text Markup Language"
+    },
+    {
+      "question": "Which programming language is primarily used for front-end web development?",
+      "options": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "C++"
+      ],
+      "answer": "JavaScript"
+    },
+    {
+      "question": "What is the purpose of CSS?",
+      "options": [
+        "To define the structure of a web page",
+        "To add interactivity to a web page",
+        "To style the visual presentation of a web page",
+        "To manage databases"
+      ],
+      "answer": "To style the visual presentation of a web page"
+    },
+    {
+      "question": "What is a 'div' element commonly used for in HTML?",
+      "options": [
+        "Creating a line break",
+        "Defining a hyperlink",
+        "Creating a container or section",
+        "Inserting an image"
+      ],
+      "answer": "Creating a container or section"
+    },
+    {
+      "question": "Which of the following is NOT a valid HTML tag?",
+      "options": [
+        "<p>",
+        "<h1>",
+        "<section>",
+        "<headering>"
+      ],
+      "answer": "<headering>"
+    },
+    {
+      "question": "What does URL stand for?",
+      "options": [
+        "Uniform Resource Locator",
+        "Universal Retrieval Link",
+        "Ultimate Reference Location",
+        "Unified Resource Link"
+      ],
+      "answer": "Uniform Resource Locator"
+    },
+    {
+      "question": "What is the function of the 'alt' attribute in an '<img>' tag?",
+      "options": [
+        "To provide an alternative text for the image",
+        "To align the image to the left",
+        "To add a border to the image",
+        "To control the image's transparency"
+      ],
+      "answer": "To provide an alternative text for the image"
+    },
+    {
+      "question": "Which of these is a common way to include external CSS in an HTML document?",
+      "options": [
+        "Using the `<style>` tag directly in the HTML",
+        "Using the `<css>` tag in the `<head>`",
+        "Using the `<link>` tag in the `<head>`",
+        "Importing it directly in the JavaScript file"
+      ],
+      "answer": "Using the `<link>` tag in the `<head>`"
+    },
+    {
+      "question": "What is a 'class' selector used for in CSS?",
+      "options": [
+        "To select a unique element",
+        "To select all elements of a specific type",
+        "To select elements with a specific attribute",
+        "To select multiple elements with the same style"
+      ],
+      "answer": "To select multiple elements with the same style"
+    },
+    {
+      "question": "Which symbol is used to denote an ID selector in CSS?",
+      "options": [
+        ".",
+        "#",
+        "$",
+        "*"
+      ],
+      "answer": "#"
+    }
+  ]

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Review Answers</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <!-- Logout Button -->
+    <div class="top-right">
+        <form method="POST" action="{{ url_for('logout') }}">
+            <button type="submit">Logout</button>
+        </form>
+    </div>
+
+    <div class="review-full-page">
+        <h1 class="center-heading">Review Answers</h1>
+        <h2 class="center-subheading">Hello {{ username }}, here’s how you did:</h2>
+
+        <div class="question-review">
+            {% for q in results %}
+                <div class="answer-box">
+                    <h3>Q{{ loop.index }}: {{ q.question }}</h3>
+                    <p><strong>Your Answer:</strong>
+                        <span class="{{ 'correct' if q.is_correct else 'incorrect' }}">
+                            {{ q.user_answer }}
+                            {% if q.is_correct %}✔️{% else %}❌{% endif %}
+                        </span>
+                    </p>
+                    {% if not q.is_correct %}
+                        <p><strong>Correct Answer:</strong> {{ q.correct_answer }}</p>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <!-- Logout Button -->
+    <div class="top-right">
+        <form method="POST" action="{{ url_for('logout') }}">
+            <button type="submit">Logout</button>
+        </form>
+    </div>
+
+    <div class="result-container">
+        <h1>Result</h1>
+        <h2>Congratulations, {{ username }}!</h2>
+        <p>Your Score: {{ score }} out of {{ total }}</p>
+
+        <div style="margin-top: 30px;">
+            <form action="{{ url_for('review') }}">
+                <button type="submit">Review Answers</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
