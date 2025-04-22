@@ -18,7 +18,6 @@ A beginner-friendly quiz website built using **HTML**, **CSS**, and **Python (Fl
 quiz-app/
 │
 ├── app.py                       # Flask backend
-├── requirements.txt             # Python dependencies
 │
 ├── templates/                   # HTML templates
 │   ├── index.html               # Quiz page
